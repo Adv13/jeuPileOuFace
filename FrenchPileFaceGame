@@ -6,9 +6,9 @@ while continuer in ('o', 'O'):
     choix_cote = input("Pile ou face ? ")
     cote = choice(('pile', 'face')) #choisi l'un des deux au hasard
     if choix_cote == cote:
-        print("gagné")
+        print("Gagné !")
     else:
-        print("perdu")
+        print("Perdu !")
     continuer = input("Voulez vous rejouer ?")
     
 
