@@ -10,3 +10,25 @@ while continuer in ('o', 'O'):
     else:
         print("perdu")
     continuer = input("Voulez vous rejouer ?")
+    
+
+#Output :
+Pile ou face ? pile
+Gagné !
+Voulez vous rejouer ?o
+Pile ou face ? pile
+Perdu !
+Voulez vous rejouer ?o
+Pile ou face ? pile
+Perdu !
+Voulez vous rejouer ?o
+Pile ou face ? face
+Gagné !
+Voulez vous rejouer ?o
+Pile ou face ? pile
+Gagné !
+Voulez vous rejouer ?o
+Pile ou face ? pile
+Gagné !
+Voulez vous rejouer ?
+
