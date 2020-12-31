@@ -1,0 +1,12 @@
+from random import choice
+ 
+continuer = 'o'
+ 
+while continuer in ('o', 'O'):
+    choix_cote = input("Pile ou face ? ")
+    cote = choice(('pile', 'face')) #choisi l'un des deux au hasard
+    if choix_cote == cote:
+        print("gagné")
+    else:
+        print("perdu")
+    continuer = input("Voulez vous rejouer ?")
